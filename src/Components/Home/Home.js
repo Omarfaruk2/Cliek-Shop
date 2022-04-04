@@ -5,7 +5,6 @@ import './Home.css'
 
 const Home = () => {
     let navigate = useNavigate()
-    console.log(navigate)
 
     const handleReviews = () => {
         navigate(`/reviews`)

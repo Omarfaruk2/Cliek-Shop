@@ -5,10 +5,10 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <div>
+        <div className='w-100'>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Nav className="mx-auto header my-3">
+                    <Nav className="mx-auto header">
                         <Link to="/">HOME</Link>
                         <Link to="/reviews">REVIEWS</Link>
                         <Link to="/dashboard">DASHBOARD</Link>

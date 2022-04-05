@@ -1,7 +1,8 @@
 .header a {
+    font-weight: 700;
     text-decoration: none;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 10px;
     color: white;
     transition: color ease-in-out 300ms;

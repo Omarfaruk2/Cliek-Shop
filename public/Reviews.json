@@ -18,7 +18,7 @@
         "reviews": "4",
         "id": 2,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-846lPaZVDgy8kofUQo5R11Jf9ytcLptaw&usqp=CAU",
-        "about": "Nostrud aliqua ipsum ullamco excepteur velit."
+        "about": "Nostrud aliqua ipsum ullamco excepteur velit. They are very impresive and I love it."
     },
     {
         "name": "Bradley Leach",
@@ -29,7 +29,7 @@
     },
     {
         "name": "Roy Mcknight",
-        "reviews": "3",
+        "reviews": "3.8",
         "id": 4,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKX9ClIfHI7kdTOFYmEgKuEQ9GdyjjORLm2Q&usqp=CAU",
         "about": "Amet sunt adipisicing tempor elit laborum irure sint deserunt est."

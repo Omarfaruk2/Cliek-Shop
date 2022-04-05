@@ -2,7 +2,7 @@
 import Rating from 'react-rating'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
+import "./ShowShort.css"
 import React from 'react'
 import { Card } from 'react-bootstrap'
 
@@ -11,10 +11,10 @@ const ShowShort = ({ customar }) => {
     const { name, img, about, reviews } = customar
     return (
         <div className='col-lg-4 mt-5'>
-            <Card className='mx-auto  w-75 px-3 pt-3 my-3' style={{ width: '18rem' }}>
-                <Card.Img width="300px" height="230px" className='' variant="top" src={img} />
+            <Card className='mx-auto  w-75 px-3 pt-3 my-3 card-shadow' style={{ width: '18rem' }}>
+                <Card.Img height="230px" className='rounded-circle w-75 mx-auto' variant="top" src={img} />
                 <Card.Body>
-                    <Card.Title>Name:{name}</Card.Title>
+                    <Card.Title>Name: {name}</Card.Title>
                     <Card.Text>
                         {about}
                     </Card.Text>

@@ -1,7 +1,8 @@
 
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis }
+    from 'recharts'
 
 const Dashboard = () => {
     const [chart, setChart] = useState()
@@ -41,7 +42,7 @@ const Dashboard = () => {
                         }}
                     >
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="name" />
+                        <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
                         <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />

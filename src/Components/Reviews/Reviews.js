@@ -8,7 +8,7 @@ import "./Reviews.css"
 const Reviews = () => {
     const [customars] = useReviews()
     return (
-        <div className='row m-0'>
+        <div className='row m-0 bg-light '>
             {
                 customars.map(customar => <AllRevies
                     customar={customar}

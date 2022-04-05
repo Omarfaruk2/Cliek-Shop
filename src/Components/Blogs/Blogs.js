@@ -3,8 +3,8 @@ import { Card } from 'react-bootstrap'
 import "./Blogs.css"
 const Blogs = () => {
     return (
-        <div className='container my-3'>
-            <Card body className='my-3 border'>
+        <div className='container my-3 bg-light'>
+            <Card body className='my-3 border border-dark rounded'>
                 <h3>Context API</h3>
                 <hr />
                 <p> <b>
@@ -20,7 +20,7 @@ const Blogs = () => {
                 </b>
                 </p>
             </Card>
-            <Card body>
+            <Card body className='my-3 border border-dark'>
                 <h3>Semantic HTML TAG</h3>
                 <hr />
                 <p><b>

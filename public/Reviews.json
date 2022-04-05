@@ -28,6 +28,13 @@
         "about": "Ea sint reprehenderit exercitation do laborum ex et minim."
     },
     {
+        "name": "Jhonkar Mahbub",
+        "reviews": "5",
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC7bJroaqu5ov_tZsagmf9N9wk00ENJAkRbw&usqp=CAU",
+        "about": "This company is very good servise and well behaviar. I like it very much.."
+    },
+    {
         "name": "Roy Mcknight",
         "reviews": "3.8",
         "id": 4,
@@ -42,10 +49,17 @@
         "about": "Veniam eu amet non pariatur Lorem ex labore aute."
     },
     {
-        "name": "Delacruz Briggs",
-        "reviews": "5",
-        "id": 6,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg3GbXi4xLxFwI6rCnUHstwG1wGEJR0H0dRw&usqp=CAU",
-        "about": "Cillum sint elit aliqua non id adipisicing anim sunt fugiat ullamco commodo laboris nulla."
+        "name": "Tom Hallamd",
+        "reviews": "4.5",
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qEs-q6AApa11pxPFzZi5AYUZzjYcYqoPOg&usqp=CAU",
+        "about": "Veniam eu amet non pariatur Lorem ex labore aute."
+    },
+    {
+        "name": "Rani Khan",
+        "reviews": "4.5",
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ2u7ewtLgoUhgnL9LeMuS9bdEdHSi9TkGA&usqp=CAU",
+        "about": "Veniam eu amet non pariatur Lorem ex labore aute."
     }
 ]

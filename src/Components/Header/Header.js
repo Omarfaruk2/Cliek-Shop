@@ -8,15 +8,15 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand className='fw-bold' href="/home">Choose Shop</Navbar.Brand>
+                    <Navbar.Brand className='fw-bold mx-0' href="/home">Choose Shop</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className='ms-auto header'>
+                        <Nav className='ms-auto header mx-0'>
                             <Link to="/">HOME</Link>
                             <Link to="/reviews">REVIEWS</Link>
                             <Link to="/dashboard">DASHBOARD</Link>
                             <Link to="/blogs">BLOGS</Link>
-                            <Link to="/About">ABOUT</Link>
+                            <Link to="/about">ABOUT</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

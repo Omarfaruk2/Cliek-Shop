@@ -13,8 +13,8 @@ const AllRevies = ({ customar }) => {
     const { name, img, about, reviews } = customar
 
     return (
-        <div className='col-lg-4 col-sm-12 mt-3 width'>
-            <Card className='mx-auto w-75 px-3 pt-3 my-3 card-shadow' style={{ width: '18rem' }}>
+        <div className='col-lg-4 mt-2 d-flex align-items-center justify-content-around  width'>
+            <Card className='mx-auto w-100 g-3 px-3 pt-2 my-3 card-shadow' style={{ width: '18rem' }}>
                 <Card.Img height="230px" className='rounded-circle w-75 mx-auto' variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>Name: {name}</Card.Title>

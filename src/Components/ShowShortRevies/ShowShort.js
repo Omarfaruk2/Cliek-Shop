@@ -10,8 +10,8 @@ import { Card } from 'react-bootstrap'
 const ShowShort = ({ customar }) => {
     const { name, img, about, reviews } = customar
     return (
-        <div className='col-lg-4 mt-5'>
-            <Card className='mx-auto  w-75 px-3 pt-3 my-3 card-shadow' style={{ width: '18rem' }}>
+        <div className='col-lg-4 mt-5 d-flex align-items-center justify-content-around '>
+            <Card className=' w-100 px-3 pt-3 my-3 card-shadow' style={{ width: '19rem' }}>
                 <Card.Img height="230px" className='rounded-circle w-75 mx-auto' variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>Name: {name}</Card.Title>

@@ -95,7 +95,7 @@ const Dashboard = () => {
 
             <div className="col-lg-6 col-sm-12 mt-5">
                 <h3 className='text-primary text-center fw-bold mt-3'>Investment Vs Revenue</h3>
-                <ResponsiveContainer width="100%" height="400px">
+                <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                         width={600}
                         height={400}
